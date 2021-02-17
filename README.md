@@ -19,7 +19,7 @@ Los servicios y herramientas que se utilizaron para este proyecto son las siguie
 
 ## Implementación:
 
-A pesar de que se trata de una herramienta enfocada a un aspecto médico, nuestro proyecto busca que cualquier persona con acceso a internet pueda corroborar si su elemento de prueba representa un comportamiento que tenga que ver con el COVID-19, para esto se realizó una [página web]( checker.axolotlteam.com) donde su interacción con nuestra API sea lo más amigable posible, dado esto, se puede solicitar ayuda con nuestro Chat-Bot que podrá responder las dudas que pudiera tener sobre muchos aspectos incluyendo los siguientes:
+A pesar de que se trata de una herramienta enfocada a un aspecto médico, nuestro proyecto busca que cualquier persona con acceso a internet pueda corroborar si su elemento de prueba representa un comportamiento que tenga que ver con el COVID-19, para esto se realizó una [página web]( https://checker.axolotlteam.com "Página web principal del Axolotl-Checker") donde su interacción con nuestra API sea lo más amigable posible, dado esto, se puede solicitar ayuda con nuestro Chat-Bot que podrá responder las dudas que pudiera tener sobre muchos aspectos incluyendo los siguientes:
 
 * Conocimiento general de la página web
 * Funcionamiento de la API Axolotlt-Checker.
