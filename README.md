@@ -1,6 +1,6 @@
 
 # Axolotl Team ![Axolotl team pet.](./Readme/pictures/Axolotl-0-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)
-## Proyecto: Análisis de radiografías pulmonares conProyecto: Análisis de radiografías pulmonares con ayuda de los servicios de Microsoft Azure.
+## Proyecto: Análisis de radiografías pulmonares para la detección de COVID-19.
 
 ### Sobre el proyecto:
 
@@ -11,7 +11,6 @@ También se implementó el uso de un Chat-Bot que permita poder tener una mejor 
 
 ## Tecnologías:
 Los servicios y herramientas que se utilizaron para este proyecto son las siguientes:
-
 *	--- Pendiente sobre página web ---
 *	QnA Maker API de Microsoft Azure.
 *	Custom Vision de Microsoft Azure.
@@ -20,7 +19,7 @@ Los servicios y herramientas que se utilizaron para este proyecto son las siguie
 
 ## Implementación:
 
-cualquier persona con acceso a internet pueda corroborar si su elemento de prueba representa un comportamiento que tenga que ver con el COVID-19, para esto se realizo una pagina web donde su interacción con nuestra API sea lo mas amigable posible, dado esto, se puede solicitar ayuda con nuestro Chat-Bot que podrá responder las dudas que pudiera tener sobre muchos aspectos incluyendo los siguientes:
+A pesar de que se trata de una herramienta enfocada a un aspecto médico, nuestro proyecto busca que cualquier persona con acceso a internet pueda corroborar si su elemento de prueba representa un comportamiento que tenga que ver con el COVID-19, para esto se realizó una [página web]( checker.axolotlteam.com) donde su interacción con nuestra API sea lo más amigable posible, dado esto, se puede solicitar ayuda con nuestro Chat-Bot que podrá responder las dudas que pudiera tener sobre muchos aspectos incluyendo los siguientes:
 
 * Conocimiento general de la página web
 * Funcionamiento de la API Axolotlt-Checker.
@@ -38,4 +37,4 @@ Así como se busca la facilidad de reconocimiento del COVID-19 en las radiograf�
 ## Licencias
 Pendiente.
 
-### Por parte del equipo Axolotl team, muchas gracias.
+### Muchas gracias por parte de Axolotl Team.
