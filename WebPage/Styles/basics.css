@@ -1,20 +1,22 @@
-#BigLagartija{
-    animation-timing-function: 1s;
-    transition: ease-in 0.7;
+#Chatbot{
+    border-color: royalblue;
     position: fixed;
-    width: 30px;
-    height: 18px;
-    bottom: 10px;
-    right: 10px;
+    border: solid;
+    border-radius: 2%;
+    width: 300px;
+    height: 405px;
+    right: 1%;
+    bottom: 0%;
 }
-#BigLagartija:hover{
-    transition: ease-out 1s;
-    transform: scaleX(-1);
-    cursor: pointer;
-}
-#BigLagartija:active{
-    transition: ease-out 0.1s;
-    transform: scaleX(-1);
-    width: 90px;
-    height: 68px;
+#Chatbot-window{
+    background-color: rgba(240, 248, 255, 0.267);
+    border-color: royalblue;
+    position: fixed;
+    border: solid;
+    background-color: white;
+    border-radius: 2%;
+    width: 304px;
+    height: 435px;
+    right: 0.7%;
+    bottom: 0%;
 }
