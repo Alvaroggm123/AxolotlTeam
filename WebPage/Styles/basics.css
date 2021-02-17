@@ -1,22 +1,42 @@
 #Chatbot{
-    border-color: royalblue;
     position: fixed;
-    border: solid;
-    border-radius: 2%;
+    border-radius: 3%;
     width: 300px;
     height: 405px;
     right: 1%;
     bottom: 0%;
 }
 #Chatbot-window{
-    background-color: rgba(240, 248, 255, 0.267);
-    border-color: royalblue;
+    color: black;
     position: fixed;
-    border: solid;
-    background-color: white;
+    border: solid #0000002c;
+    background-color: whitesmoke;
     border-radius: 2%;
     width: 304px;
-    height: 435px;
-    right: 0.7%;
+    height: 427px;
+    right: .5%;
     bottom: 0%;
+}
+#x{
+    position:relative;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 50rem;
+    top: .3rem;
+    left: 17rem;
+    cursor: pointer;
+}
+#x{
+    background-color:rgba(131, 42, 42, 0.863);
+}
+#x:hover{
+    background-color:rgba(131, 42, 42);
+}
+#x:active{
+    top: .2rem;
+    left: 16.8rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
