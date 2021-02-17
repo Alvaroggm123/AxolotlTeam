@@ -1,5 +1,5 @@
 
-# Axolotl Team ![Axolotl team pet.](.\Readme\pictures\Axolotl-0-M.png)![Axolotl team pet.](.\Readme\pictures\Axolotl-1-M.png)![Axolotl team pet.](.\Readme\pictures\Axolotl-1-M.png)![Axolotl team pet.](.\Readme\pictures\Axolotl-1-M.png)
+# Axolotl Team ![Axolotl team pet.](./Readme/pictures/Axolotl-0-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)![Axolotl team pet.](./Readme/pictures/Axolotl-1-M.png)
 ## Proyecto: Análisis de radiografías pulmonares conProyecto: Análisis de radiografías pulmonares con ayuda de los servicios de Microsoft Azure.
 
 ### Sobre el proyecto:
