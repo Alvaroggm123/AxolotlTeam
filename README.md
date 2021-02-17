@@ -6,7 +6,7 @@
 
 Pensando en la tarea de poder obtener una herramienta que nos permita poder identificar cuándo un paciente tiene algún padecimiento pulmonar y así mismo poder identificar si se trata de COVID-19, se implementó una base de datos en la cual se toman como referencias pacientes registrados con COVID-19, pacientes con neumonía y pacientes sin alguno de estos dos padecimientos.
 Con ayuda de los servicios que ofrece Microsoft Azure se pudo implementar Custom Vision de Microsoft, donde los datos anteriormente mencionados fueron registrados con el propósito de poder entrenar una IA, dicha IA permitirá identificar cuando, mediante una radiografía, un paciente registra un resultado se reflejara si el paciente pudo haber tenido afectaciones que se presentan cuando se contrajo COVID-19.
-También se implementó el uso de un Chat-Bot que permita poder tener una mejor interacción con los usuarios que busquen manipular nuestra IA.
+También se implementó el uso de una página web, donde se podrá encontrar información general acerca de esta enfermedad, con el propósito de informar a todos los usuarios sobre este virus. Dentro de la página se hizo el uso de un Chat-Bot que permita poder tener una mejor interacción con los usuarios que busquen manipular nuestra IA.
 
 
 ## Tecnologías:
