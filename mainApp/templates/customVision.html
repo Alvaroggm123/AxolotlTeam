@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% load static %}
+{% block content %}
+    <div id="customVision" class="p-5 text-dark h-100" >
+        <h2 class="text-center">Detecta Covid con Custom Vision</h2>
+        <form method="POST" enctype="multipart/form-data" class="p-5">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    {% if results %}
+        <div class="text-dark h-100 text-center" style="min-height:350px;">
+        <h2>Resultados</h2>
+            {{ results|safe }}
+        </div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Axolotl</title>
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Londrina+Solid">
+    <link rel="stylesheet" href="{% static 'assets/fonts/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Button-Outlines---Pretty.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/dh-row-text-image-right-responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/mystyles.compiled.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Navigation-with-Button.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/Team-Clean.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button shadow-lg">
+        <div class="container"><img class="logo" src="{% static 'assets/img/Axolotl-1-M.png' %}"><a class="navbar-brand" href="{% url 'home' %}">Axolotl TEAM</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SOBRE NOSOTROS</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">CUSTOM VISION</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="{% url 'customVision' %}">Detecta Covid-19</a></div>
+                    </li>
+                </ul><span class="navbar-text actions"> <a class="login" href="#">Log In</a><a class="btn btn-light action-button" role="button" href="#">Sign Up</a></span>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    
+    {% endblock %}
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2017</p>
+            </div>
+        </footer>
+    </div>
+    <div id="chatBot">
+        <div id="chat"><iframe src='https://webchat.botframework.com/embed/Ajolotito?s=4arKwoA4J_o.rWZj7iBcLpfaA3DPl8VPOTtxFJfbCfwVeAVxo1ILNgA' id="iframeChat" style='min-width: 400px; width: 100%; height:100%;'></iframe></div>
+    </div>
+    <div id="chatBotBtn"><img id="chatBtn" src="{% static 'assets/img/chatlogo.png' %}"></div>
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+
+</html>

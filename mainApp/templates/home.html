@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+{% load static %}
+{% block content %}
+    <header class="header-page">
+        <h1>AXOLOTL TEAM</h1><span><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book<br></span>
+        <button class="btn btn-link border-pretty"
+                style="color: white;border-color: white;margin: 0;display: block;float: left;" type="button">Continue
+            Reading <i class="icon ion-android-arrow-forward"></i></button>
+    </header>
+    <div class="row clearmargin clearpadding row-image-txt">
+        <div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6">
+            <div></div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+            <h1>Heading</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel lorem a lectus finibus bibendum ut
+                sagittis diam. Nunc egestas nulla in elit congue, id pellentesque ex semper. Aenean euismod tellus
+                tincidunt massa eleifend, a efficitur lectus ultricies. Aliquam bibendum et leo quis consectetur.
+                Integer consequat consequat mauris, id porttitor sem feugiat eu. Proin ac neque eu nisi viverra mattis.
+                Curabitur molestie lectus ac sollicitudin faucibus. Duis congue ipsum eget justo egestas blandit.</p>
+            <div style="text-align:center">
+                <button class="btn btn-light btn-lg" type="button">Lorem</button>
+            </div>
+        </div>
+    </div>
+    <div class="team-clean">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Team </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh
+                    erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="{% static 'assets/img/1.jpg' %}">
+                    <h3 class="name">Ben Johnson</h3>
+                    <p class="title">Musician</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                        aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam
+                        dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="{% static 'assets/img/2.jpg' %}">
+                    <h3 class="name">Emily Clark</h3>
+                    <p class="title">Artist</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                        aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam
+                        dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item"><img class="rounded-circle" src="{% static 'assets/img/3.jpg' %}">
+                    <h3 class="name">Carl Kent</h3>
+                    <p class="title">Stylist</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                        aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam
+                        dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+                <div class="col-md-6 col-lg-4 item m-auto"><img class="rounded-circle"
+                                                                src="{% static 'assets/img/3.jpg' %}">
+                    <h3 class="name">Carl Kent</h3>
+                    <p class="title">Stylist</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
+                        aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam
+                        dictum feugiat tellus, a semper massa. </p>
+                    <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i
+                            class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

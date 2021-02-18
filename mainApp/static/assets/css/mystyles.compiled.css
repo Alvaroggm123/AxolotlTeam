@@ -1,0 +1,38 @@
+.header-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../../assets/img/./pic.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+}
+.header-page h1 {
+  position: relative;
+  font-family: "Londrina Solid";
+  color: white;
+  padding: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+.header-page button {
+  position: relative;
+  text-align: left;
+}
+.header-page span {
+  position: relative;
+  color: white;
+  padding: 40px;
+  padding-top: 10px;
+}

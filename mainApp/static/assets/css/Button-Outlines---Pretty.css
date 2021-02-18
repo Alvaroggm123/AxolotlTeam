@@ -1,0 +1,49 @@
+.border-pretty {
+  border: 1px solid #ce9c95;
+}
+
+#chatBotBtn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+img {
+}
+
+#chatBotBtn img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+#chatBot {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  bottom: 70px;
+  float: right;
+  padding-right: 50px;
+}
+
+#chat {
+  height: 25rem;
+  width: 30rem;
+  float: right;
+  background-color: white;
+  display: none;
+  transition: display ease-out;
+}
+
+#iframeChat {
+}
+
+#iframeChat {
+  box-shadow: 0 0 10px #000;
+  border-color: transparent;
+}
+

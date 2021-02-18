@@ -1,0 +1,27 @@
+.dh-header-non-rectangular-container h1, p {
+  font-weight: bold;
+}
+
+.clearmargin {
+  margin: 0px;
+}
+
+.clearpadding {
+  padding: 0px;
+}
+
+.row-image-txt {
+  background-color: rgb(42,42,42);
+}
+
+.row-image-txt h1 {
+  color: #333;
+  font-family: 'Londrina Solid';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.row-image-txt p {
+  color: #333;
+}
+

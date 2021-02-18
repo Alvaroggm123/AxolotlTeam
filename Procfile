@@ -1,0 +1,1 @@
+web: gunicorn axolotlTeam.wsgi --log-file -
